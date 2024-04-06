@@ -2,7 +2,7 @@ package started
 
 import (
 	tele "gopkg.in/telebot.v3"
-	"tel-mo/flow_started/schema/hello/keyboard"
+	"tel-mo/flow_started/schema/started/keyboard"
 )
 
 func SelectorNextHandler(c tele.Context) error {

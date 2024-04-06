@@ -3,7 +3,7 @@ package flow_started
 import (
 	tele "gopkg.in/telebot.v3"
 	"tel-mo/flow_started/handler/started"
-	"tel-mo/flow_started/schema/hello/keyboard"
+	"tel-mo/flow_started/schema/started/keyboard"
 )
 
 func LoadHandlerHello() map[any]func(m tele.Context) error {
